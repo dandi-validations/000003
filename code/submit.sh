@@ -3,7 +3,7 @@
 #
 #   What:      dandi validate, streaming (dandi/dandi-cli#1956), of Dandiset 000003 (draft)
 #   Image:     ghcr.io/dandi-validations/dandi-validation:d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2
-#              digest unknown
+#              digest sha256:b91b988fb65f1395f9bf7c7af28f2c92b77a9dff80daf0fae68d57c0a7f5d999
 #              (oras://ghcr.io/dandi-validations/dandi-validation:sif-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2 as an Apptainer SIF)
 #   Where:     a GitHub Actions runner of https://github.com/dandi-validations/000003,
 #              in the capsule's DataLad dataset: branch d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2
@@ -24,7 +24,7 @@ CAPSULE="."
 DANDISET_ID="000003"
 CONTAINER_NAME="dandi-validation"
 VERSION_CODE="d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2"
-CONTAINER_DOCKER_URL="docker://ghcr.io/dandi-validations/dandi-validation:d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2"
+CONTAINER_DOCKER_URL="docker://ghcr.io/dandi-validations/dandi-validation@sha256:b91b988fb65f1395f9bf7c7af28f2c92b77a9dff80daf0fae68d57c0a7f5d999"
 CONTAINER_SIF_URL="oras://ghcr.io/dandi-validations/dandi-validation:sif-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2"
 # The image goes under envs/, which the capsule annexes (see its .gitattributes).
 CONTAINER_IMAGE_PATH="envs/${CONTAINER_NAME}/image"

@@ -13,17 +13,17 @@
       "Name": "DANDI Validations: Container",
       "Description": "The dandi-validation image, tagged by its validator version code, run through Apptainer with datalad containers-run.",
       "Version": "d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2",
-      "CodeURL": "ghcr.io/dandi-validations/dandi-validation:d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2",
+      "CodeURL": "ghcr.io/dandi-validations/dandi-validation:d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2@sha256:b91b988fb65f1395f9bf7c7af28f2c92b77a9dff80daf0fae68d57c0a7f5d999",
       "Container": {
         "Type": "docker",
         "Tag": "d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2",
-        "URI": "docker://ghcr.io/dandi-validations/dandi-validation:d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2"
+        "URI": "docker://ghcr.io/dandi-validations/dandi-validation@sha256:b91b988fb65f1395f9bf7c7af28f2c92b77a9dff80daf0fae68d57c0a7f5d999"
       }
     },
     {
       "Name": "DANDI Validations: Code",
       "Description": "Orchestration of validation jobs on GitHub Actions.",
-      "Version": "v0.1.0+6bd6e189734155ebef8437484e98e08a92825d10",
+      "Version": "v0.1.0+45a6ac95ee3a20827513ae04251feedae8092d6d",
       "CodeURL": "https://github.com/dandi-validations/dandi-validations"
     }
   ],
@@ -52,7 +52,7 @@
       "bids-validator-deno": "3.0.2"
     },
     "image": "ghcr.io/dandi-validations/dandi-validation:d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2",
-    "image_digest": null,
+    "image_digest": "sha256:b91b988fb65f1395f9bf7c7af28f2c92b77a9dff80daf0fae68d57c0a7f5d999",
     "branch": "d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2",
     "sourcedata": {
       "path": "sourcedata",
@@ -71,7 +71,7 @@
       "reference": "https://github.com/dandi/dandi-cli/pull/1956"
     },
     "codebase": "v0.1.0",
-    "codebase_version": "v0.1.0+6bd6e189734155ebef8437484e98e08a92825d10",
-    "created_at": "2026-11-10T19:23:52+00:00"
+    "codebase_version": "v0.1.0+45a6ac95ee3a20827513ae04251feedae8092d6d",
+    "created_at": "2026-11-10T19:41:08+00:00"
   }
 }
