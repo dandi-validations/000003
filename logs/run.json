@@ -1,0 +1,24 @@
+{
+  "exit_code": 0,
+  "timed_out": false,
+  "started_at": "2026-11-10T20:28:34+00:00",
+  "finished_at": "2026-11-10T20:33:30+00:00",
+  "host": {
+    "python": "3.13.18",
+    "platform": "Linux-7.0.0-1019-azure-x86_64-with-glibc2.43"
+  },
+  "github_actions": {
+    "repository": "dandi-validations/000003",
+    "run_id": "42895518578",
+    "run_attempt": "1",
+    "workflow": "Validate",
+    "event_name": "workflow_dispatch",
+    "sha": "34f2715b0538bd40122ab78d7c508e1eca5443b4",
+    "runner_name": "GitHub Actions 1000000115",
+    "runner_os": "Linux",
+    "runner_arch": "X64",
+    "image_os": "ubuntu26",
+    "image_version": "20261101.186.1",
+    "run_url": "https://github.com/dandi-validations/000003/actions/runs/42895518578"
+  }
+}

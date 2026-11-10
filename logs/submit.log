@@ -1,0 +1,337 @@
+INFO:    Downloading oras image
+[INFO] Copying local file /home/runner/.cache/dandi-validations/images/dandi-validation_d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2.sif to /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/envs/dandi-validation/image 
+add(ok): envs/dandi-validation/image (file)
+add(ok): .datalad/config (file)
+save(ok): . (dataset)
+action summary:
+  add (ok: 2)
+  save (ok: 1)
+add(ok): envs/dandi-validation/image (file)
+add(ok): .datalad/config (file)
+save(ok): . (dataset)
+containers_add(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/envs/dandi-validation/image (file)
+action summary:
+  add (ok: 2)
+  containers_add (ok: 1)
+  save (ok: 1)
+INFO:    squashfuse not found, will not be able to mount SIF or other squashfs files
+INFO:    fuse2fs not found, will not be able to mount EXT3 filesystems
+INFO:    gocryptfs not found, will not be able to use gocryptfs
+INFO:    Converting SIF file to temporary sandbox...
+INFO:    Cleaning up image...
+2026-11-10T20:28:52+0000 [INFO    ] con-duct: python-dotenv not installed, skipping .env file loading
+2026-11-10T20:28:52+0000 [INFO    ] con-duct: duct 0.23.0 is executing "datalad containers-run --container-name dandi-validation --explicit --message pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2: dandi validate (streaming) of Dandiset 000003 (draft) --input ./code/run.sh --input ./code/name-default.json --input ./code/dandiset.yaml --input ./code/assets.tsv --output ./derivatives bash './code/run.sh' '.' '000003' './code/name-default.json'"...
+2026-11-10T20:28:52+0000 [INFO    ] con-duct: Log files will be written to ./logs/duct_
+[INFO] Making sure inputs are available (this may take some time) 
+[INFO] == Command start (output follows) ===== 
+INFO:    squashfuse not found, will not be able to mount SIF or other squashfs files
+INFO:    fuse2fs not found, will not be able to mount EXT3 filesystems
+INFO:    gocryptfs not found, will not be able to use gocryptfs
+INFO:    Converting SIF file to temporary sandbox...
+=== dandi-validation image ===
+{
+  "validator_versions": {
+    "dandi": "0.82.0+28.gbec91fa4",
+    "dandischema": "0.14.0",
+    "nwbinspector": "0.7.2",
+    "pynwb": "4.2.0",
+    "hdmf": "6.2.0",
+    "bids-validator-deno": "3.0.2"
+  },
+  "tool_versions": {
+    "datalad": "1.8.0",
+    "datalad-container": "1.2.6",
+    "datalad-fuse": "0.7.0+14.ge480cd8",
+    "remfile": "0.1.15",
+    "con-duct": "0.23.0",
+    "bidsschematools": "1.2.7"
+  },
+  "git": "git version 2.56.0",
+  "git_annex": "10.20260717-g0c917920c80ab1e8cc3d8f5886537708949e1659"
+}
+=== Building the DataLad dataset of Dandiset 000003 from its S3 manifest ===
+[INFO] Author identity unknown
+| 
+| *** Please tell me who you are.
+| 
+| Run
+| 
+|   git config --global user.email "you@example.com"
+|   git config --global user.name "Your Name"
+| 
+| to set your account's default identity.
+| Omit --global to set the identity only in this repository.
+| 
+| fatal: empty ident name (for <runner@runnervmwuk1x.kb2c42qqymme3okziaetag01tc.yx.internal.cloudapp.net>) not allowed 
+[INFO] Running procedure cfg_text2git 
+[INFO] == Command start (output follows) ===== 
+It is highly recommended to configure Git before using DataLad. Set both 'user.name' and 'user.email' configuration variables.
+[INFO] == Command exit (modification check follows) ===== 
+run(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003 (dataset) [/opt/dandi-validation/.pixi/envs/default...]
+create(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003 (dataset)
+action summary:
+  create (ok: 1)
+  run (ok: 1)
+add(ok): dandiset.yaml (file)
+save(ok): . (dataset)
+action summary:
+  add (ok: 1)
+  save (ok: 1)
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse20/sub-YutaMouse20_ses-YutaMouse20-140321_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse20/sub-YutaMouse20_ses-YutaMouse20-140324_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse20/sub-YutaMouse20_ses-YutaMouse20-140325_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse20/sub-YutaMouse20_ses-YutaMouse20-140327_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse20/sub-YutaMouse20_ses-YutaMouse20-140328_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse23/sub-YutaMouse23_ses-YutaMouse23-140804_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse23/sub-YutaMouse23_ses-YutaMouse23-140805_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse23/sub-YutaMouse23_ses-YutaMouse23-140806_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse33/sub-YutaMouse33_ses-YutaMouse33-150218_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse33/sub-YutaMouse33_ses-YutaMouse33-150219_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse33/sub-YutaMouse33_ses-YutaMouse33-150220_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse33/sub-YutaMouse33_ses-YutaMouse33-150221_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse33/sub-YutaMouse33_ses-YutaMouse33-150222_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse33/sub-YutaMouse33_ses-YutaMouse33-150224_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse33/sub-YutaMouse33_ses-YutaMouse33-150225_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse33/sub-YutaMouse33_ses-YutaMouse33-150226_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse37/sub-YutaMouse37_ses-YutaMouse37-150609_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse37/sub-YutaMouse37_ses-YutaMouse37-150610_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse37/sub-YutaMouse37_ses-YutaMouse37-150611_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse37/sub-YutaMouse37_ses-YutaMouse37-150612_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse37/sub-YutaMouse37_ses-YutaMouse37-150617_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse38/sub-YutaMouse38_ses-YutaMouse38-150709_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse39/sub-YutaMouse39_ses-YutaMouse39-150727_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse39/sub-YutaMouse39_ses-YutaMouse39-150728_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse39/sub-YutaMouse39_ses-YutaMouse39-150729_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse39/sub-YutaMouse39_ses-YutaMouse39-150730_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse39/sub-YutaMouse39_ses-YutaMouse39-150731_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse39/sub-YutaMouse39_ses-YutaMouse39-150803_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse39/sub-YutaMouse39_ses-YutaMouse39-150804_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse40/sub-YutaMouse40_ses-YutaMouse40-150812_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse40/sub-YutaMouse40_ses-YutaMouse40-150814_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse40/sub-YutaMouse40_ses-YutaMouse40-150816_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse41/sub-YutaMouse41_ses-YutaMouse41-150829_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse41/sub-YutaMouse41_ses-YutaMouse41-150830_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse41/sub-YutaMouse41_ses-YutaMouse41-150831_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse41/sub-YutaMouse41_ses-YutaMouse41-150901_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse41/sub-YutaMouse41_ses-YutaMouse41-150902_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse41/sub-YutaMouse41_ses-YutaMouse41-150903_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse41/sub-YutaMouse41_ses-YutaMouse41-150908_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse41/sub-YutaMouse41_ses-YutaMouse41-150909_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse41/sub-YutaMouse41_ses-YutaMouse41-150910_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse41/sub-YutaMouse41_ses-YutaMouse41-150911_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse42/sub-YutaMouse42_ses-YutaMouse42-151102_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse42/sub-YutaMouse42_ses-YutaMouse42-151103_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse42/sub-YutaMouse42_ses-YutaMouse42-151104_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse42/sub-YutaMouse42_ses-YutaMouse42-151105_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse42/sub-YutaMouse42_ses-YutaMouse42-151106_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse42/sub-YutaMouse42_ses-YutaMouse42-151108_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse42/sub-YutaMouse42_ses-YutaMouse42-151109_ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse42/sub-YutaMouse42_ses-YutaMouse42-151110_ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse42/sub-YutaMouse42_ses-YutaMouse42-151111_ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse42/sub-YutaMouse42_ses-YutaMouse42-151112_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse42/sub-YutaMouse42_ses-YutaMouse42-151113_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse42/sub-YutaMouse42_ses-YutaMouse42-151114_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse42/sub-YutaMouse42_ses-YutaMouse42-151116_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse42/sub-YutaMouse42_ses-YutaMouse42-151117_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse42/sub-YutaMouse42_ses-YutaMouse42-151118_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse44/sub-YutaMouse44_ses-YutaMouse44-151128_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse44/sub-YutaMouse44_ses-YutaMouse44-151129_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse44/sub-YutaMouse44_ses-YutaMouse44-151130_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse45/sub-YutaMouse45_ses-YutaMouse45-160301_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse45/sub-YutaMouse45_ses-YutaMouse45-160302_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse45/sub-YutaMouse45_ses-YutaMouse45-160303_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse45/sub-YutaMouse45_ses-YutaMouse45-160304_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse45/sub-YutaMouse45_ses-YutaMouse45-160305_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse51/sub-YutaMouse51_ses-YutaMouse51-160515_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse51/sub-YutaMouse51_ses-YutaMouse51-160516_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse51/sub-YutaMouse51_ses-YutaMouse51b160514_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse51/sub-YutaMouse51_ses-YutaMouse51b160516_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse54/sub-YutaMouse54_ses-YutaMouse54-160630_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse54/sub-YutaMouse54_ses-YutaMouse54-160701_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse54/sub-YutaMouse54_ses-YutaMouse54-160702_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse54/sub-YutaMouse54_ses-YutaMouse54b160701_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse54/sub-YutaMouse54_ses-YutaMouse54b160702_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse55/sub-YutaMouse55_ses-YutaMouse55-160901_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse55/sub-YutaMouse55_ses-YutaMouse55-160902_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse55/sub-YutaMouse55_ses-YutaMouse55-160906_ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse55/sub-YutaMouse55_ses-YutaMouse55-160907_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse55/sub-YutaMouse55_ses-YutaMouse55-160908_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse55/sub-YutaMouse55_ses-YutaMouse55-160909_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse55/sub-YutaMouse55_ses-YutaMouse55-160910_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse55/sub-YutaMouse55_ses-YutaMouse55-160911_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse55/sub-YutaMouse55_ses-YutaMouse55b160907_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse56/sub-YutaMouse56_ses-YutaMouse56-160911_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse56/sub-YutaMouse56_ses-YutaMouse56-160912_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse56/sub-YutaMouse56_ses-YutaMouse56-160913_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse56/sub-YutaMouse56_ses-YutaMouse56-160914_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse56/sub-YutaMouse56_ses-YutaMouse56-160915_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse56/sub-YutaMouse56_ses-YutaMouse56-160916_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse56/sub-YutaMouse56_ses-YutaMouse56b160913_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse56/sub-YutaMouse56_ses-YutaMouse56b160914_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse56/sub-YutaMouse56_ses-YutaMouse56b160915_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse57/sub-YutaMouse57_ses-YutaMouse57-161004_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse57/sub-YutaMouse57_ses-YutaMouse57-161006_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse57/sub-YutaMouse57_ses-YutaMouse57-161007_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse57/sub-YutaMouse57_ses-YutaMouse57-161010_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse57/sub-YutaMouse57_ses-YutaMouse57-161011_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse57/sub-YutaMouse57_ses-YutaMouse57-161013_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse57/sub-YutaMouse57_ses-YutaMouse57-161014_behavior+ecephys.nwb (file) [registered URL]
+fromkey(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2/intermediate/000003/sub-YutaMouse57/sub-YutaMouse57_ses-YutaMouse57-161016_behavior+ecephys.nwb (file) [registered URL]
+save(ok): . (dataset)
+action summary:
+  fromkey (ok: 100)
+  save (ok: 1)
+Registered 100 annexed files (none downloaded).
+=== Validating Dandiset 000003 (--missing-file-content=stream, -J 8) ===
+2026-11-10 20:29:02,802 [    INFO] Validating 100 files
+2026-11-10 20:29:16,717 [ WARNING] Failed to retrieve NWB Inspector version due to HTTPError: 500 Server Error: Internal Server Error for url: https://rig.mit.edu/et/projects/NeurodataWithoutBorders/nwbinspector
+2026-11-10 20:29:16,781 [ WARNING] Failed to retrieve NWB Inspector version due to HTTPError: 500 Server Error: Internal Server Error for url: https://rig.mit.edu/et/projects/NeurodataWithoutBorders/nwbinspector
+2026-11-10 20:29:16,839 [ WARNING] Failed to retrieve NWB Inspector version due to HTTPError: 500 Server Error: Internal Server Error for url: https://rig.mit.edu/et/projects/NeurodataWithoutBorders/nwbinspector
+2026-11-10 20:29:17,167 [ WARNING] Failed to retrieve NWB Inspector version due to HTTPError: 500 Server Error: Internal Server Error for url: https://rig.mit.edu/et/projects/NeurodataWithoutBorders/nwbinspector
+2026-11-10 20:29:17,173 [ WARNING] Failed to retrieve NWB Inspector version due to HTTPError: 500 Server Error: Internal Server Error for url: https://rig.mit.edu/et/projects/NeurodataWithoutBorders/nwbinspector
+2026-11-10 20:29:17,346 [ WARNING] Failed to retrieve NWB Inspector version due to HTTPError: 500 Server Error: Internal Server Error for url: https://rig.mit.edu/et/projects/NeurodataWithoutBorders/nwbinspector
+2026-11-10 20:29:17,577 [ WARNING] Failed to retrieve NWB Inspector version due to HTTPError: 500 Server Error: Internal Server Error for url: https://rig.mit.edu/et/projects/NeurodataWithoutBorders/nwbinspector
+2026-11-10 20:29:18,083 [ WARNING] Failed to retrieve NWB Inspector version due to HTTPError: 500 Server Error: Internal Server Error for url: https://rig.mit.edu/et/projects/NeurodataWithoutBorders/nwbinspector
+2026-11-10 20:29:21,989 [    INFO] [1/100] sub-YutaMouse55/sub-YutaMouse55_ses-YutaMouse55-160908_behavior+ecephys.nwb: OK
+2026-11-10 20:29:23,754 [    INFO] [2/100] sub-YutaMouse55/sub-YutaMouse55_ses-YutaMouse55-160911_behavior+ecephys.nwb: OK
+2026-11-10 20:29:24,998 [    INFO] [3/100] sub-YutaMouse55/sub-YutaMouse55_ses-YutaMouse55-160907_behavior+ecephys.nwb: OK
+2026-11-10 20:29:25,314 [    INFO] [4/100] sub-YutaMouse55/sub-YutaMouse55_ses-YutaMouse55-160909_behavior+ecephys.nwb: OK
+2026-11-10 20:29:25,784 [    INFO] [5/100] sub-YutaMouse55/sub-YutaMouse55_ses-YutaMouse55-160910_behavior+ecephys.nwb: OK
+2026-11-10 20:29:26,253 [    INFO] [6/100] sub-YutaMouse55/sub-YutaMouse55_ses-YutaMouse55b160907_behavior+ecephys.nwb: OK
+2026-11-10 20:29:29,267 [    INFO] [7/100] sub-YutaMouse55/sub-YutaMouse55_ses-YutaMouse55-160902_behavior+ecephys.nwb: OK
+2026-11-10 20:29:32,028 [    INFO] [8/100] sub-YutaMouse55/sub-YutaMouse55_ses-YutaMouse55-160901_behavior+ecephys.nwb: OK
+2026-11-10 20:29:35,304 [    INFO] [9/100] sub-YutaMouse37/sub-YutaMouse37_ses-YutaMouse37-150617_behavior+ecephys.nwb: OK
+2026-11-10 20:29:38,122 [    INFO] [10/100] sub-YutaMouse55/sub-YutaMouse55_ses-YutaMouse55-160906_ecephys.nwb: OK
+2026-11-10 20:29:42,192 [    INFO] [11/100] sub-YutaMouse37/sub-YutaMouse37_ses-YutaMouse37-150612_behavior+ecephys.nwb: OK
+2026-11-10 20:29:42,718 [    INFO] [12/100] sub-YutaMouse37/sub-YutaMouse37_ses-YutaMouse37-150610_behavior+ecephys.nwb: OK
+2026-11-10 20:29:45,869 [    INFO] [13/100] sub-YutaMouse37/sub-YutaMouse37_ses-YutaMouse37-150609_behavior+ecephys.nwb: OK
+2026-11-10 20:29:49,129 [    INFO] [14/100] sub-YutaMouse42/sub-YutaMouse42_ses-YutaMouse42-151102_behavior+ecephys.nwb: 2 issues
+2026-11-10 20:29:49,451 [    INFO] [15/100] sub-YutaMouse42/sub-YutaMouse42_ses-YutaMouse42-151108_behavior+ecephys.nwb: OK
+2026-11-10 20:29:50,706 [    INFO] [16/100] sub-YutaMouse37/sub-YutaMouse37_ses-YutaMouse37-150611_behavior+ecephys.nwb: OK
+2026-11-10 20:29:52,949 [    INFO] [17/100] sub-YutaMouse42/sub-YutaMouse42_ses-YutaMouse42-151111_ecephys.nwb: OK
+2026-11-10 20:29:54,874 [    INFO] [18/100] sub-YutaMouse42/sub-YutaMouse42_ses-YutaMouse42-151103_behavior+ecephys.nwb: OK
+2026-11-10 20:29:57,966 [    INFO] [19/100] sub-YutaMouse42/sub-YutaMouse42_ses-YutaMouse42-151117_behavior+ecephys.nwb: OK
+2026-11-10 20:29:58,111 [    INFO] [20/100] sub-YutaMouse42/sub-YutaMouse42_ses-YutaMouse42-151113_behavior+ecephys.nwb: OK
+2026-11-10 20:30:02,363 [    INFO] [21/100] sub-YutaMouse42/sub-YutaMouse42_ses-YutaMouse42-151118_behavior+ecephys.nwb: OK
+2026-11-10 20:30:05,773 [    INFO] [22/100] sub-YutaMouse42/sub-YutaMouse42_ses-YutaMouse42-151109_ecephys.nwb: OK
+2026-11-10 20:30:09,029 [    INFO] [23/100] sub-YutaMouse42/sub-YutaMouse42_ses-YutaMouse42-151105_behavior+ecephys.nwb: OK
+2026-11-10 20:30:11,718 [    INFO] [24/100] sub-YutaMouse42/sub-YutaMouse42_ses-YutaMouse42-151114_behavior+ecephys.nwb: OK
+2026-11-10 20:30:15,777 [    INFO] [25/100] sub-YutaMouse42/sub-YutaMouse42_ses-YutaMouse42-151106_behavior+ecephys.nwb: OK
+2026-11-10 20:30:18,643 [    INFO] [26/100] sub-YutaMouse40/sub-YutaMouse40_ses-YutaMouse40-150816_behavior+ecephys.nwb: OK
+2026-11-10 20:30:20,510 [    INFO] [27/100] sub-YutaMouse42/sub-YutaMouse42_ses-YutaMouse42-151112_behavior+ecephys.nwb: OK
+2026-11-10 20:30:21,205 [    INFO] [28/100] sub-YutaMouse42/sub-YutaMouse42_ses-YutaMouse42-151104_behavior+ecephys.nwb: OK
+2026-11-10 20:30:21,750 [    INFO] [29/100] sub-YutaMouse40/sub-YutaMouse40_ses-YutaMouse40-150814_behavior+ecephys.nwb: OK
+2026-11-10 20:30:22,691 [    INFO] [30/100] sub-YutaMouse42/sub-YutaMouse42_ses-YutaMouse42-151116_behavior+ecephys.nwb: OK
+2026-11-10 20:30:24,201 [    INFO] [31/100] sub-YutaMouse40/sub-YutaMouse40_ses-YutaMouse40-150812_behavior+ecephys.nwb: OK
+2026-11-10 20:30:26,279 [    INFO] [32/100] sub-YutaMouse42/sub-YutaMouse42_ses-YutaMouse42-151110_ecephys.nwb: OK
+2026-11-10 20:30:30,615 [    INFO] [33/100] sub-YutaMouse51/sub-YutaMouse51_ses-YutaMouse51b160516_behavior+ecephys.nwb: OK
+2026-11-10 20:30:36,621 [    INFO] [34/100] sub-YutaMouse51/sub-YutaMouse51_ses-YutaMouse51-160516_behavior+ecephys.nwb: OK
+2026-11-10 20:30:37,038 [    INFO] [35/100] sub-YutaMouse44/sub-YutaMouse44_ses-YutaMouse44-151128_behavior+ecephys.nwb: OK
+2026-11-10 20:30:37,108 [    INFO] [36/100] sub-YutaMouse41/sub-YutaMouse41_ses-YutaMouse41-150829_behavior+ecephys.nwb: OK
+2026-11-10 20:30:38,415 [    INFO] [37/100] sub-YutaMouse44/sub-YutaMouse44_ses-YutaMouse44-151129_behavior+ecephys.nwb: OK
+2026-11-10 20:30:38,875 [    INFO] [38/100] sub-YutaMouse44/sub-YutaMouse44_ses-YutaMouse44-151130_behavior+ecephys.nwb: OK
+2026-11-10 20:30:39,714 [    INFO] [39/100] sub-YutaMouse51/sub-YutaMouse51_ses-YutaMouse51b160514_behavior+ecephys.nwb: OK
+2026-11-10 20:30:39,939 [    INFO] [40/100] sub-YutaMouse51/sub-YutaMouse51_ses-YutaMouse51-160515_behavior+ecephys.nwb: OK
+2026-11-10 20:30:51,756 [    INFO] [41/100] sub-YutaMouse41/sub-YutaMouse41_ses-YutaMouse41-150903_behavior+ecephys.nwb: 1 issue
+2026-11-10 20:30:53,452 [    INFO] [42/100] sub-YutaMouse41/sub-YutaMouse41_ses-YutaMouse41-150830_behavior+ecephys.nwb: OK
+2026-11-10 20:31:00,623 [    INFO] [43/100] sub-YutaMouse41/sub-YutaMouse41_ses-YutaMouse41-150901_behavior+ecephys.nwb: 1 issue
+2026-11-10 20:31:06,344 [    INFO] [44/100] sub-YutaMouse41/sub-YutaMouse41_ses-YutaMouse41-150909_behavior+ecephys.nwb: 1 issue
+2026-11-10 20:31:06,607 [    INFO] [45/100] sub-YutaMouse41/sub-YutaMouse41_ses-YutaMouse41-150831_behavior+ecephys.nwb: OK
+2026-11-10 20:31:07,278 [    INFO] [46/100] sub-YutaMouse41/sub-YutaMouse41_ses-YutaMouse41-150902_behavior+ecephys.nwb: OK
+2026-11-10 20:31:08,020 [    INFO] [47/100] sub-YutaMouse20/sub-YutaMouse20_ses-YutaMouse20-140321_behavior+ecephys.nwb: OK
+2026-11-10 20:31:08,076 [    INFO] [48/100] sub-YutaMouse41/sub-YutaMouse41_ses-YutaMouse41-150910_behavior+ecephys.nwb: 1 issue
+2026-11-10 20:31:08,391 [    INFO] [49/100] sub-YutaMouse41/sub-YutaMouse41_ses-YutaMouse41-150911_behavior+ecephys.nwb: 1 issue
+2026-11-10 20:31:14,000 [    INFO] [50/100] sub-YutaMouse41/sub-YutaMouse41_ses-YutaMouse41-150908_behavior+ecephys.nwb: 1 issue
+2026-11-10 20:31:16,833 [    INFO] [51/100] sub-YutaMouse20/sub-YutaMouse20_ses-YutaMouse20-140327_behavior+ecephys.nwb: OK
+2026-11-10 20:31:19,665 [    INFO] [52/100] sub-YutaMouse20/sub-YutaMouse20_ses-YutaMouse20-140328_behavior+ecephys.nwb: OK
+2026-11-10 20:31:20,557 [    INFO] [53/100] sub-YutaMouse39/sub-YutaMouse39_ses-YutaMouse39-150804_behavior+ecephys.nwb: OK
+2026-11-10 20:31:22,003 [    INFO] [54/100] sub-YutaMouse20/sub-YutaMouse20_ses-YutaMouse20-140324_behavior+ecephys.nwb: OK
+2026-11-10 20:31:23,018 [    INFO] [55/100] sub-YutaMouse20/sub-YutaMouse20_ses-YutaMouse20-140325_behavior+ecephys.nwb: OK
+2026-11-10 20:31:26,391 [    INFO] [56/100] sub-YutaMouse38/sub-YutaMouse38_ses-YutaMouse38-150709_behavior+ecephys.nwb: OK
+2026-11-10 20:31:28,385 [    INFO] [57/100] sub-YutaMouse39/sub-YutaMouse39_ses-YutaMouse39-150803_behavior+ecephys.nwb: 1 issue
+2026-11-10 20:31:33,542 [    INFO] [58/100] sub-YutaMouse39/sub-YutaMouse39_ses-YutaMouse39-150729_behavior+ecephys.nwb: 1 issue
+2026-11-10 20:31:34,433 [    INFO] [59/100] sub-YutaMouse39/sub-YutaMouse39_ses-YutaMouse39-150730_behavior+ecephys.nwb: 1 issue
+2026-11-10 20:31:34,965 [    INFO] [60/100] sub-YutaMouse39/sub-YutaMouse39_ses-YutaMouse39-150728_behavior+ecephys.nwb: OK
+2026-11-10 20:31:38,494 [    INFO] [61/100] sub-YutaMouse39/sub-YutaMouse39_ses-YutaMouse39-150727_behavior+ecephys.nwb: 1 issue
+2026-11-10 20:31:41,855 [    INFO] [62/100] sub-YutaMouse39/sub-YutaMouse39_ses-YutaMouse39-150731_behavior+ecephys.nwb: 1 issue
+2026-11-10 20:31:42,223 [    INFO] [63/100] sub-YutaMouse57/sub-YutaMouse57_ses-YutaMouse57-161016_behavior+ecephys.nwb: OK
+2026-11-10 20:31:45,715 [    INFO] [64/100] sub-YutaMouse57/sub-YutaMouse57_ses-YutaMouse57-161013_behavior+ecephys.nwb: OK
+2026-11-10 20:31:51,674 [    INFO] [65/100] sub-YutaMouse57/sub-YutaMouse57_ses-YutaMouse57-161010_behavior+ecephys.nwb: 2 issues
+2026-11-10 20:31:53,798 [    INFO] [66/100] sub-YutaMouse57/sub-YutaMouse57_ses-YutaMouse57-161014_behavior+ecephys.nwb: OK
+2026-11-10 20:31:56,765 [    INFO] [67/100] sub-YutaMouse57/sub-YutaMouse57_ses-YutaMouse57-161006_behavior+ecephys.nwb: OK
+2026-11-10 20:31:56,797 [    INFO] [68/100] sub-YutaMouse57/sub-YutaMouse57_ses-YutaMouse57-161004_behavior+ecephys.nwb: OK
+2026-11-10 20:32:03,676 [    INFO] [69/100] sub-YutaMouse54/sub-YutaMouse54_ses-YutaMouse54-160701_behavior+ecephys.nwb: OK
+2026-11-10 20:32:04,668 [    INFO] [70/100] sub-YutaMouse57/sub-YutaMouse57_ses-YutaMouse57-161011_behavior+ecephys.nwb: OK
+2026-11-10 20:32:04,950 [    INFO] [71/100] sub-YutaMouse54/sub-YutaMouse54_ses-YutaMouse54-160630_behavior+ecephys.nwb: OK
+2026-11-10 20:32:09,133 [    INFO] [72/100] sub-YutaMouse57/sub-YutaMouse57_ses-YutaMouse57-161007_behavior+ecephys.nwb: OK
+2026-11-10 20:32:15,033 [    INFO] [73/100] sub-YutaMouse54/sub-YutaMouse54_ses-YutaMouse54b160702_behavior+ecephys.nwb: OK
+2026-11-10 20:32:18,654 [    INFO] [74/100] sub-YutaMouse54/sub-YutaMouse54_ses-YutaMouse54b160701_behavior+ecephys.nwb: OK
+2026-11-10 20:32:22,795 [    INFO] [75/100] sub-YutaMouse45/sub-YutaMouse45_ses-YutaMouse45-160303_behavior+ecephys.nwb: OK
+2026-11-10 20:32:23,200 [    INFO] [76/100] sub-YutaMouse45/sub-YutaMouse45_ses-YutaMouse45-160304_behavior+ecephys.nwb: OK
+2026-11-10 20:32:28,578 [    INFO] [77/100] sub-YutaMouse45/sub-YutaMouse45_ses-YutaMouse45-160301_behavior+ecephys.nwb: OK
+2026-11-10 20:32:29,477 [    INFO] [78/100] sub-YutaMouse45/sub-YutaMouse45_ses-YutaMouse45-160302_behavior+ecephys.nwb: OK
+2026-11-10 20:32:29,606 [    INFO] [79/100] sub-YutaMouse45/sub-YutaMouse45_ses-YutaMouse45-160305_behavior+ecephys.nwb: OK
+2026-11-10 20:32:34,230 [    INFO] [80/100] sub-YutaMouse54/sub-YutaMouse54_ses-YutaMouse54-160702_behavior+ecephys.nwb: OK
+2026-11-10 20:32:34,391 [    INFO] [81/100] sub-YutaMouse56/sub-YutaMouse56_ses-YutaMouse56b160914_behavior+ecephys.nwb: OK
+2026-11-10 20:32:36,789 [    INFO] [82/100] sub-YutaMouse56/sub-YutaMouse56_ses-YutaMouse56b160913_behavior+ecephys.nwb: OK
+2026-11-10 20:32:37,211 [    INFO] [83/100] sub-YutaMouse56/sub-YutaMouse56_ses-YutaMouse56-160913_behavior+ecephys.nwb: OK
+2026-11-10 20:32:43,301 [    INFO] [84/100] sub-YutaMouse33/sub-YutaMouse33_ses-YutaMouse33-150218_behavior+ecephys.nwb: OK
+2026-11-10 20:32:45,393 [    INFO] [85/100] sub-YutaMouse56/sub-YutaMouse56_ses-YutaMouse56-160916_behavior+ecephys.nwb: OK
+2026-11-10 20:32:47,966 [    INFO] [86/100] sub-YutaMouse56/sub-YutaMouse56_ses-YutaMouse56-160915_behavior+ecephys.nwb: OK
+2026-11-10 20:32:50,029 [    INFO] [87/100] sub-YutaMouse56/sub-YutaMouse56_ses-YutaMouse56-160914_behavior+ecephys.nwb: OK
+2026-11-10 20:32:50,317 [    INFO] [88/100] sub-YutaMouse56/sub-YutaMouse56_ses-YutaMouse56b160915_behavior+ecephys.nwb: OK
+2026-11-10 20:32:57,853 [    INFO] [89/100] sub-YutaMouse56/sub-YutaMouse56_ses-YutaMouse56-160912_behavior+ecephys.nwb: OK
+2026-11-10 20:33:00,159 [    INFO] [90/100] sub-YutaMouse56/sub-YutaMouse56_ses-YutaMouse56-160911_behavior+ecephys.nwb: OK
+2026-11-10 20:33:00,172 [    INFO] [91/100] sub-YutaMouse33/sub-YutaMouse33_ses-YutaMouse33-150222_behavior+ecephys.nwb: OK
+2026-11-10 20:33:06,298 [    INFO] [92/100] sub-YutaMouse33/sub-YutaMouse33_ses-YutaMouse33-150225_behavior+ecephys.nwb: OK
+2026-11-10 20:33:10,012 [    INFO] [93/100] sub-YutaMouse23/sub-YutaMouse23_ses-YutaMouse23-140804_behavior+ecephys.nwb: OK
+2026-11-10 20:33:10,393 [    INFO] [94/100] sub-YutaMouse23/sub-YutaMouse23_ses-YutaMouse23-140805_behavior+ecephys.nwb: OK
+2026-11-10 20:33:18,755 [    INFO] [95/100] sub-YutaMouse23/sub-YutaMouse23_ses-YutaMouse23-140806_behavior+ecephys.nwb: OK
+2026-11-10 20:33:19,109 [    INFO] [96/100] sub-YutaMouse33/sub-YutaMouse33_ses-YutaMouse33-150219_behavior+ecephys.nwb: OK
+2026-11-10 20:33:19,143 [    INFO] [97/100] sub-YutaMouse33/sub-YutaMouse33_ses-YutaMouse33-150220_behavior+ecephys.nwb: OK
+2026-11-10 20:33:23,433 [    INFO] [98/100] sub-YutaMouse33/sub-YutaMouse33_ses-YutaMouse33-150224_behavior+ecephys.nwb: OK
+2026-11-10 20:33:23,663 [    INFO] [99/100] sub-YutaMouse33/sub-YutaMouse33_ses-YutaMouse33-150221_behavior+ecephys.nwb: OK
+2026-11-10 20:33:24,717 [    INFO] [100/100] sub-YutaMouse33/sub-YutaMouse33_ses-YutaMouse33-150226_behavior+ecephys.nwb: OK
+2026-11-10 20:33:26,160 [    INFO] Validation output written to ./intermediate/validation.jsonl
+
+--- Validation Summary ---
+Total issues: 115
+By severity:
+  WARNING: 15
+  INFO: 100
+By validator:
+  dandi: 100
+  nwbinspector: 15
+By standard:
+  DANDI-LAYOUT: 100
+  N/A: 15
+2026-11-10 20:33:26,160 [    INFO] Logs saved in /home/runner/.local/state/dandi-cli/log/2026.11.10-20.29.00Z-7038.log
+dandi validate exited with 0
+=== Summarizing results ===
+2026-11-10 20:33:26,849 [    INFO] Logs saved in /home/runner/.local/state/dandi-cli/log/2026.11.10-20.33.26Z-30394.log
+=== Writing results ===
+INFO:    Cleaning up image...
+[INFO] == Command exit (modification check follows) ===== 
+run(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2 (dataset) [apptainer exec --cleanenv envs/dandi-val...]
+add(ok): derivatives/validation.jsonl (file)
+add(ok): derivatives/validation_summary.txt (file)
+save(ok): . (dataset)
+action summary:
+  add (ok: 2)
+  get (notneeded: 5)
+  run (ok: 1)
+  save (ok: 1)
+2026-11-10T20:33:30+0000 [INFO    ] con-duct: Summary:
+Exit Code: 0
+Command: datalad containers-run --container-name dandi-validation --explicit --message pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2: dandi validate (streaming) of Dandiset 000003 (draft) --input ./code/run.sh --input ./code/name-default.json --input ./code/dandiset.yaml --input ./code/assets.tsv --output ./derivatives bash './code/run.sh' '.' '000003' './code/name-default.json'
+Log files location: ./logs/duct_
+Wall Clock Time: 278.014 sec
+Memory Peak Usage (RSS): 3.4 GB
+Memory Average Usage (RSS): 2.9 GB
+Virtual Memory Peak Usage (VSZ): 3.3 TB
+Virtual Memory Average Usage (VSZ): 91.1 GB
+Memory Peak Percentage: 19.80%
+Memory Average Percentage: 16.48%
+CPU Peak Usage: 498.80%
+Average CPU Usage: 262.28%
+
