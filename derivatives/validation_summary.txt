@@ -1,0 +1,11 @@
+--- Validation Summary ---
+Total issues: 115
+By severity:
+  WARNING: 15
+  INFO: 100
+By validator:
+  dandi: 100
+  nwbinspector: 15
+By standard:
+  DANDI-LAYOUT: 100
+  N/A: 15
