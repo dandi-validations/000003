@@ -1,0 +1,9 @@
+[INFO] Making sure inputs are available (this may take some time) 
+[INFO] == Command start (output follows) ===== 
+INFO:    squashfuse not found, will not be able to mount SIF or other squashfs files
+INFO:    fuse2fs not found, will not be able to mount EXT3 filesystems
+INFO:    gocryptfs not found, will not be able to use gocryptfs
+INFO:    Converting SIF file to temporary sandbox...
+1 assets have no SHA-256 digest or no blob on S3, so they cannot be streamed: ['sub-YutaMouse33/sub-YutaMouse33_ses-YutaMouse33-150223_behavior+ecephys.nwb']
+INFO:    Cleaning up image...
+[INFO] == Command exit (modification check follows) ===== 

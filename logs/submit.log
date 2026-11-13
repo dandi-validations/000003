@@ -1,0 +1,76 @@
+INFO:    Downloading oras image
+[INFO] Copying local file /home/runner/.cache/dandi-validations/images/dandi-validation_d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2.sif to /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2-v0.4.0/envs/dandi-validation/image 
+add(ok): envs/dandi-validation/image (file)
+add(ok): .datalad/config (file)
+save(ok): . (dataset)
+action summary:
+  add (ok: 2)
+  save (ok: 1)
+add(ok): envs/dandi-validation/image (file)
+add(ok): .datalad/config (file)
+save(ok): . (dataset)
+containers_add(ok): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2-v0.4.0/envs/dandi-validation/image (file)
+action summary:
+  add (ok: 2)
+  containers_add (ok: 1)
+  save (ok: 1)
+INFO:    squashfuse not found, will not be able to mount SIF or other squashfs files
+INFO:    fuse2fs not found, will not be able to mount EXT3 filesystems
+INFO:    gocryptfs not found, will not be able to use gocryptfs
+INFO:    Converting SIF file to temporary sandbox...
+INFO:    Cleaning up image...
+2026-11-13T03:04:47+0000 [INFO    ] con-duct: python-dotenv not installed, skipping .env file loading
+2026-11-13T03:04:47+0000 [INFO    ] con-duct: duct 0.23.0 is executing "datalad containers-run --container-name dandi-validation --explicit --message pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2-v0.4.0: dandi validate (streaming) of Dandiset 000003 (draft) --input ./code/run.sh --input ./code/name-default.json --input ./sourcedata/assets.jsonld --output ./sourcedata/000003 --output ./derivatives bash './code/run.sh' '.' '000003' './code/name-default.json' 'https://dandiarchive.s3.amazonaws.com/dandisets/000003/draft/dandiset.yaml?versionId=_j2y0EsLTn.7tW.qqXV9Ov1Q4i06QlXE'"...
+2026-11-13T03:04:47+0000 [INFO    ] con-duct: Log files will be written to ./logs/duct_
+[INFO] Making sure inputs are available (this may take some time) 
+[INFO] == Command start (output follows) ===== 
+INFO:    squashfuse not found, will not be able to mount SIF or other squashfs files
+INFO:    fuse2fs not found, will not be able to mount EXT3 filesystems
+INFO:    gocryptfs not found, will not be able to use gocryptfs
+INFO:    Converting SIF file to temporary sandbox...
+=== dandi-validation image ===
+{
+  "validator_versions": {
+    "dandi": "0.82.0+28.gbec91fa4",
+    "dandischema": "0.14.0",
+    "nwbinspector": "0.7.2",
+    "pynwb": "4.2.0",
+    "hdmf": "6.2.0",
+    "bids-validator-deno": "3.0.2"
+  },
+  "tool_versions": {
+    "datalad": "1.8.0",
+    "datalad-container": "1.2.6",
+    "datalad-fuse": "0.7.0+14.ge480cd8",
+    "remfile": "0.1.15",
+    "con-duct": "0.23.0",
+    "bidsschematools": "1.2.7"
+  },
+  "git": "git version 2.56.0",
+  "git_annex": "10.20260717-g0c917920c80ab1e8cc3d8f5886537708949e1659"
+}
+=== Minting the DataLad dataset of Dandiset 000003 from its S3 manifest ===
+1 assets have no SHA-256 digest or no blob on S3, so they cannot be streamed: ['sub-YutaMouse33/sub-YutaMouse33_ses-YutaMouse33-150223_behavior+ecephys.nwb']
+addurls(error): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2-v0.4.0 (dataset) [ValueError(Failed to read JSON from stream <_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>) -caused by- Expecting value: line 1 column 1 (char 0)]
+action summary:
+  addurls (error: 1)
+INFO:    Cleaning up image...
+[INFO] == Command exit (modification check follows) ===== 
+run(error): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2-v0.4.0 (dataset) [apptainer exec --cleanenv envs/dandi-val...]
+action summary:
+  get (notneeded: 4)
+  run (error: 1)
+2026-11-13T03:04:51+0000 [INFO    ] con-duct: Summary:
+Exit Code: 1
+Command: datalad containers-run --container-name dandi-validation --explicit --message pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2-v0.4.0: dandi validate (streaming) of Dandiset 000003 (draft) --input ./code/run.sh --input ./code/name-default.json --input ./sourcedata/assets.jsonld --output ./sourcedata/000003 --output ./derivatives bash './code/run.sh' '.' '000003' './code/name-default.json' 'https://dandiarchive.s3.amazonaws.com/dandisets/000003/draft/dandiset.yaml?versionId=_j2y0EsLTn.7tW.qqXV9Ov1Q4i06QlXE'
+Log files location: ./logs/duct_
+Wall Clock Time: 4.307 sec
+Memory Peak Usage (RSS): 647.1 MB
+Memory Average Usage (RSS): 257.8 MB
+Virtual Memory Peak Usage (VSZ): 4.9 GB
+Virtual Memory Average Usage (VSZ): 2.4 GB
+Memory Peak Percentage: 3.60%
+Memory Average Percentage: 1.38%
+CPU Peak Usage: 425.30%
+Average CPU Usage: 194.38%
+

@@ -1,0 +1,29 @@
+=== dandi-validation image ===
+{
+  "validator_versions": {
+    "dandi": "0.82.0+28.gbec91fa4",
+    "dandischema": "0.14.0",
+    "nwbinspector": "0.7.2",
+    "pynwb": "4.2.0",
+    "hdmf": "6.2.0",
+    "bids-validator-deno": "3.0.2"
+  },
+  "tool_versions": {
+    "datalad": "1.8.0",
+    "datalad-container": "1.2.6",
+    "datalad-fuse": "0.7.0+14.ge480cd8",
+    "remfile": "0.1.15",
+    "con-duct": "0.23.0",
+    "bidsschematools": "1.2.7"
+  },
+  "git": "git version 2.56.0",
+  "git_annex": "10.20260717-g0c917920c80ab1e8cc3d8f5886537708949e1659"
+}
+=== Minting the DataLad dataset of Dandiset 000003 from its S3 manifest ===
+addurls(error): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2-v0.4.0 (dataset) [ValueError(Failed to read JSON from stream <_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>) -caused by- Expecting value: line 1 column 1 (char 0)]
+action summary:
+  addurls (error: 1)
+run(error): /home/runner/work/000003/000003/pipeline-dandi+validate_tag-d0.82.0-s0.14.0-n0.7.2-p4.2.0-h6.2.0-b3.0.2-v0.4.0 (dataset) [apptainer exec --cleanenv envs/dandi-val...]
+action summary:
+  get (notneeded: 4)
+  run (error: 1)
